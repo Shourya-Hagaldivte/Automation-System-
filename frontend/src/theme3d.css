@@ -1,0 +1,571 @@
+:root {
+  color-scheme: dark;
+  --rfp-bg: #070b14;
+  --rfp-panel: rgba(19, 20, 40, 0.78);
+  --rfp-panel-strong: rgba(25, 26, 50, 0.92);
+  --rfp-border-cyan: rgba(19, 211, 238, 0.42);
+  --rfp-border-violet: rgba(139, 92, 246, 0.54);
+  --rfp-text: #f8fbff;
+  --rfp-muted: #b9c6dc;
+  --rfp-cyan: #16d3f4;
+  --rfp-violet: #8b5cf6;
+  --rfp-shadow: 0 34px 90px rgba(0, 0, 0, 0.56), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+html,
+body,
+#root {
+  background: var(--rfp-bg) !important;
+  color: var(--rfp-text) !important;
+}
+
+.app,
+.app-shell,
+.app-main,
+.app-panel,
+.app-header,
+.app-footer {
+  color: var(--rfp-text) !important;
+}
+
+.app {
+  position: relative;
+  isolation: isolate;
+  background:
+    radial-gradient(circle at 8% 8%, rgba(22, 211, 244, 0.2), transparent 28%),
+    radial-gradient(circle at 84% 8%, rgba(139, 92, 246, 0.28), transparent 28%),
+    radial-gradient(circle at 48% 95%, rgba(24, 211, 238, 0.12), transparent 35%),
+    linear-gradient(135deg, #080d18 0%, #151432 55%, #080812 100%) !important;
+  perspective: 1400px;
+}
+
+.scene-backdrop-3d {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.66;
+  filter: saturate(1.08);
+}
+
+.app > :not(.scene-backdrop-3d),
+.app-shell,
+.login-page,
+.requirements-page,
+.tender-page {
+  position: relative;
+  z-index: 1;
+}
+
+.login-page,
+.requirements-page,
+.tender-page {
+  background: transparent !important;
+}
+
+.app-shell {
+  background: transparent !important;
+  transform-style: preserve-3d;
+}
+
+.app-header {
+  margin: 1.15rem 1.2rem 0 !important;
+  border: 1px solid rgba(22, 211, 244, 0.26) !important;
+  border-radius: 28px !important;
+  background: linear-gradient(135deg, rgba(15, 19, 38, 0.86), rgba(24, 20, 54, 0.76)) !important;
+  backdrop-filter: blur(22px);
+  box-shadow: var(--rfp-shadow) !important;
+  transform: translateZ(24px);
+}
+
+.brand-mark,
+.requirements-check,
+.login-check,
+.tender-header-mark {
+  box-shadow: 0 18px 42px rgba(18, 204, 235, 0.28), 0 12px 36px rgba(132, 56, 234, 0.25) !important;
+  transform: translateZ(24px);
+}
+
+.brand-copy h1,
+.agent-header h2,
+.results-header h2,
+.dashboard-hero h2,
+.rfp-results h2,
+.pricing-agent h2,
+.technical-agent h2,
+.sales-agent h2 {
+  color: var(--rfp-text) !important;
+}
+
+.brand-copy p,
+.agent-header p,
+.results-header p,
+.dashboard-hero p,
+.rfp-results p,
+.pricing-agent p,
+.technical-agent p,
+.sales-agent p {
+  color: var(--rfp-muted) !important;
+}
+
+.stepper {
+  background: rgba(9, 12, 27, 0.72) !important;
+  border: 1px solid rgba(22, 211, 244, 0.22) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 20px 46px rgba(0, 0, 0, 0.28) !important;
+}
+
+.stepper-pill {
+  color: #9fb0cf !important;
+}
+
+.stepper-item--active .stepper-pill,
+.stepper-item--complete .stepper-pill {
+  color: #ffffff !important;
+  background: linear-gradient(135deg, rgba(18, 204, 235, 0.28), rgba(132, 56, 234, 0.38)) !important;
+  box-shadow: 0 14px 34px rgba(18, 204, 235, 0.18) !important;
+}
+
+.stepper-index {
+  background: rgba(255, 255, 255, 0.12) !important;
+  color: #eaf7ff !important;
+}
+
+.app-main {
+  background: transparent !important;
+}
+
+.app-panel {
+  background: linear-gradient(145deg, rgba(16, 18, 34, 0.72), rgba(25, 24, 54, 0.58)) !important;
+  border: 1px solid rgba(22, 211, 244, 0.24) !important;
+  box-shadow: var(--rfp-shadow) !important;
+  backdrop-filter: blur(24px);
+  transform: translateZ(18px);
+}
+
+.app-footer {
+  background: transparent !important;
+  border: 0 !important;
+}
+
+.footer-inner {
+  color: #94a3b8 !important;
+}
+
+button,
+.cta-button,
+.distribute-button,
+.complete-analysis-button,
+.complete-pricing-button,
+.action-btn,
+.primary-action,
+.secondary-action,
+.find-suppliers-button,
+.login-button,
+.add-item-button,
+.toggle-button {
+  transform-style: preserve-3d;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease !important;
+}
+
+button:hover,
+.cta-button:hover,
+.distribute-button:hover,
+.complete-analysis-button:hover,
+.complete-pricing-button:hover,
+.action-btn:hover,
+.primary-action:hover,
+.secondary-action:hover,
+.find-suppliers-button:hover,
+.login-button:hover,
+.add-item-button:hover,
+.toggle-button:hover {
+  transform: translateY(-3px) translateZ(14px) !important;
+  box-shadow: 0 24px 56px rgba(18, 204, 235, 0.2), 0 18px 46px rgba(132, 56, 234, 0.22) !important;
+}
+
+button:disabled {
+  cursor: not-allowed !important;
+  opacity: 0.52 !important;
+  transform: none !important;
+}
+
+.dashboard,
+.main-agent,
+.technical-agent,
+.pricing-agent,
+.sales-agent,
+.rfp-results {
+  color: var(--rfp-text) !important;
+  transform-style: preserve-3d;
+}
+
+.dashboard-hero,
+.stat-card,
+.info-section,
+.info-card,
+.recent-activity,
+.backend-stats,
+.data-section,
+.url-scanner,
+.rfp-card,
+.agent-header,
+.processing-indicator,
+.rfp-overview,
+.overview-card,
+.summary-panel,
+.action-panel,
+.processing-steps,
+.products-section,
+.product-match-card,
+.recommendation-card,
+.final-selection,
+.pricing-section,
+.final-summary,
+.summary-card,
+.results-header,
+.rfp-info-banner,
+.tabs-container,
+.rfp-section,
+.tech-detail-card,
+.pricing-section-result,
+.final-totals,
+.compliance-section,
+.action-footer,
+.login-card,
+.requirements-card,
+.tender-card,
+.company-tender-card,
+.tender-3d-panel {
+  color: var(--rfp-text) !important;
+  background: linear-gradient(145deg, rgba(18, 21, 43, 0.88), rgba(30, 25, 60, 0.76)) !important;
+  border: 1px solid rgba(22, 211, 244, 0.26) !important;
+  box-shadow: var(--rfp-shadow) !important;
+  backdrop-filter: blur(18px);
+  transform-style: preserve-3d;
+}
+
+.dashboard-hero:hover,
+.stat-card:hover,
+.info-section:hover,
+.info-card:hover,
+.rfp-card:hover,
+.overview-card:hover,
+.summary-panel:hover,
+.product-match-card:hover,
+.recommendation-card:hover,
+.rfp-section:hover,
+.company-tender-card:hover,
+.tender-card:hover,
+.tender-3d-panel:hover {
+  transform: translateY(-5px) rotateX(1deg) rotateY(-1deg) translateZ(18px) !important;
+  border-color: rgba(139, 92, 246, 0.56) !important;
+}
+
+.agent-header,
+.results-header {
+  padding: 1.6rem !important;
+  border-radius: 22px !important;
+  margin-bottom: 1.6rem !important;
+}
+
+.dashboard-hero h2,
+.info-section h3,
+.recent-activity h3,
+.backend-stats h3,
+.data-section h3,
+.rfp-results h3,
+.pricing-section h3,
+.products-section h3,
+.rfp-overview h3,
+.summary-panel h3,
+.final-selection h3,
+.final-summary h3,
+.rfp-section-title {
+  color: var(--rfp-text) !important;
+}
+
+.drop-zone,
+.item-row,
+.supply-item,
+.recommendation-card,
+.pricing-table,
+.pricing-table-result,
+.compact-table,
+.selection-table,
+.specs-table table,
+.summary-card,
+.final-totals,
+.timeline-item,
+.data-item,
+.activity-item,
+.tech-detail-card {
+  background: rgba(8, 12, 27, 0.58) !important;
+  border-color: rgba(22, 211, 244, 0.2) !important;
+  color: var(--rfp-text) !important;
+}
+
+label,
+.detail-row .label,
+.banner-label,
+.stat-label,
+.activity-details span,
+.data-item-details p,
+.timeline-content span,
+.cost-label,
+.summary-row .label,
+.supply-item p,
+.rfp-meta p,
+.rfp-spec,
+.differences,
+.price-source {
+  color: var(--rfp-muted) !important;
+}
+
+.detail-row .value,
+.banner-value,
+.stat-value,
+.summary-row .value,
+.cost-value,
+.timeline-content strong,
+.supply-item strong,
+.data-item-header strong,
+.activity-details strong {
+  color: #f8fbff !important;
+}
+
+input,
+select,
+textarea {
+  color: #ffffff !important;
+  background: rgba(8, 11, 24, 0.88) !important;
+  border: 1px solid rgba(22, 211, 244, 0.32) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #9da9c5 !important;
+}
+
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+  color: var(--rfp-text) !important;
+  border-color: rgba(22, 211, 244, 0.18) !important;
+}
+
+th,
+.pricing-table th,
+.compact-table th,
+.selection-table th,
+.specs-table th,
+.pricing-table-result th {
+  background: rgba(22, 211, 244, 0.12) !important;
+  color: #dff9ff !important;
+}
+
+td,
+.pricing-table td,
+.compact-table td,
+.selection-table td,
+.specs-table td,
+.pricing-table-result td {
+  background: rgba(8, 12, 27, 0.38) !important;
+}
+
+.match-badge,
+.rfp-badge,
+.agent-badge,
+.priority-badge,
+.category-tag,
+.compliance-tags span,
+.source-summary span,
+.banner-value.success,
+.product-thumb,
+.step-indicator,
+.timeline-marker,
+.rank-badge {
+  box-shadow: 0 12px 28px rgba(18, 204, 235, 0.2) !important;
+}
+
+.rfp-info-banner,
+.overview-card,
+.summary-card,
+.final-totals {
+  border-left-color: var(--rfp-cyan) !important;
+}
+
+.recommendation-card.selected,
+.recommendation-card.rank-1,
+.rfp-card.selected {
+  border-color: rgba(22, 211, 244, 0.68) !important;
+  box-shadow: 0 28px 66px rgba(18, 204, 235, 0.24), inset 0 1px 0 rgba(255, 255, 255, 0.06) !important;
+}
+
+.inferred-items-list,
+.select-tender-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.inferred-items-list span {
+  border: 1px solid rgba(22, 211, 244, 0.32);
+  border-radius: 999px;
+  padding: 0.65rem 0.9rem;
+  background: rgba(8, 14, 30, 0.72);
+  color: #e0fbff;
+  font-weight: 800;
+}
+
+.compact-action {
+  padding: 0.75rem 1.25rem !important;
+  font-size: 0.86rem !important;
+}
+
+.no-tender-card {
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .app-header {
+    margin: 0.8rem !important;
+  }
+
+  .scene-backdrop-3d {
+    opacity: 0.42;
+  }
+}
+
+/* Agentic procurement platform refinements */
+.app::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.24;
+  background-image:
+    linear-gradient(120deg, rgba(7, 11, 20, 0.62), rgba(7, 11, 20, 0.28)),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='800' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop stop-color='%2316d3f4' stop-opacity='.35'/%3E%3Cstop offset='1' stop-color='%238b5cf6' stop-opacity='.25'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='1200' height='800' fill='%23070b14'/%3E%3Cpath d='M90 650L360 420L620 520L980 210L1120 260' fill='none' stroke='url(%23g)' stroke-width='5'/%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='.12' stroke-width='2'%3E%3Cpath d='M170 190h280v180H170zM690 130h300v190H690zM760 450h270v160H760z'/%3E%3Cpath d='M220 250h180M730 190h230M810 515h200'/%3E%3C/g%3E%3Cg fill='%2316d3f4' fill-opacity='.16'%3E%3Ccircle cx='170' cy='650' r='10'/%3E%3Ccircle cx='360' cy='420' r='10'/%3E%3Ccircle cx='620' cy='520' r='10'/%3E%3Ccircle cx='980' cy='210' r='10'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: cover;
+  background-position: center;
+  mix-blend-mode: screen;
+}
+
+.procurement-platform-app,
+.procurement-shell,
+.procurement-main,
+.procurement-panel {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+.procurement-shell {
+  min-height: 100vh;
+}
+
+.procurement-header .brand {
+  justify-content: flex-start;
+}
+
+.brand-button {
+  border: 0 !important;
+  padding: 0 !important;
+}
+
+.procurement-stepper {
+  flex-wrap: wrap;
+  border-radius: 24px !important;
+  justify-content: flex-start !important;
+}
+
+.procurement-stepper .stepper-item {
+  border: 0 !important;
+  background: transparent !important;
+  padding: 0 !important;
+  flex: 1 1 130px;
+  min-width: 118px;
+  box-shadow: none !important;
+}
+
+.procurement-stepper .stepper-item:hover {
+  background: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+.procurement-stepper .stepper-pill {
+  width: 100%;
+  min-height: 34px;
+  transform-style: preserve-3d;
+}
+
+.procurement-stepper .stepper-item:not(:disabled):hover .stepper-pill {
+  transform: translateZ(10px);
+  border-color: rgba(22, 211, 244, 0.42);
+}
+
+.procurement-panel {
+  min-height: calc(100vh - 230px);
+  overflow: visible !important;
+}
+
+.agentic-card,
+.agentic-hero-card,
+.capability-card,
+.agent-card,
+.table-card,
+.supplier-compare-card,
+.total-breakup-card,
+.recommendation-card-large,
+.approval-card-main {
+  transform: translateZ(12px);
+}
+
+.agentic-card:hover,
+.agentic-hero-card:hover,
+.capability-card:hover,
+.agent-card:hover,
+.table-card:hover,
+.supplier-compare-card:hover,
+.total-breakup-card:hover,
+.recommendation-card-large:hover,
+.approval-card-main:hover {
+  transform: translateY(-4px) rotateX(0.7deg) rotateY(-0.7deg) translateZ(18px) !important;
+  border-color: rgba(139, 92, 246, 0.54) !important;
+}
+
+.primary-action,
+.find-suppliers-button,
+.login-button {
+  background: linear-gradient(135deg, #16d3f4, #8b5cf6) !important;
+  border: 0 !important;
+  color: #ffffff !important;
+  font-weight: 900 !important;
+}
+
+.secondary-action {
+  background: rgba(7, 11, 24, 0.78) !important;
+  border: 1px solid rgba(22, 211, 244, 0.28) !important;
+  color: #e7f8ff !important;
+}
+
+.company-tender-card .primary-action:disabled,
+.tender-actions .secondary-action:disabled {
+  opacity: 0.5 !important;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}

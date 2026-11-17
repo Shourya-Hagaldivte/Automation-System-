@@ -1,0 +1,255 @@
+{
+  "polycab_sku_master_list": [
+    {
+      "match_tags": ["wiring", "1.5 sq.mm", "copper", "single core", "frls"],
+      "sku_id": "POLY-GRN-FRLS-1.5",
+      "product_series": "Polycab Green Wire",
+      "item_description": "1.5 sq.mm FRLS PVC Insulated Copper Single Core Flexible Wire",
+      "technical_specifications": {
+        "conductor_material": "Electrolytic Grade Copper (99.97%)",
+        "insulation_type": "FRLS (Flame Retardant Low Smoke) PVC",
+        "cross_section": "1.5 sq.mm",
+        "voltage_grade": "1100 V",
+        "compliance": "IS 694, RoHS, REACH, Green Pro",
+        "features": "Anti-Termite, Anti-Rodent, Lead Free"
+      }
+    },
+    {
+      "match_tags": ["circuit wiring", "2.5 sq.mm", "copper", "single core", "frls"],
+      "sku_id": "POLY-GRN-FRLS-2.5",
+      "product_series": "Polycab Green Wire",
+      "item_description": "2.5 sq.mm FRLS PVC Insulated Copper Single Core Flexible Wire",
+      "technical_specifications": {
+        "conductor_material": "Electrolytic Grade Copper",
+        "insulation_type": "FRLS PVC",
+        "cross_section": "2.5 sq.mm",
+        "voltage_grade": "1100 V",
+        "compliance": "IS 694"
+      }
+    },
+    {
+      "match_tags": ["submain wiring", "4 sq.mm", "copper", "single core", "frls"],
+      "sku_id": "POLY-GRN-FRLS-4.0",
+      "product_series": "Polycab Green Wire",
+      "item_description": "4.0 sq.mm FRLS PVC Insulated Copper Single Core Flexible Wire",
+      "technical_specifications": {
+        "conductor_material": "Electrolytic Grade Copper",
+        "insulation_type": "FRLS PVC",
+        "cross_section": "4.0 sq.mm",
+        "voltage_grade": "1100 V",
+        "compliance": "IS 694"
+      }
+    },
+    {
+      "match_tags": ["submain wiring", "6 sq.mm", "copper", "single core", "frls"],
+      "sku_id": "POLY-GRN-FRLS-6.0",
+      "product_series": "Polycab Green Wire",
+      "item_description": "6.0 sq.mm FRLS PVC Insulated Copper Single Core Flexible Wire",
+      "technical_specifications": {
+        "conductor_material": "Electrolytic Grade Copper",
+        "insulation_type": "FRLS PVC",
+        "cross_section": "6.0 sq.mm",
+        "voltage_grade": "1100 V",
+        "compliance": "IS 694"
+      }
+    },
+    {
+      "match_tags": ["cable", "25 sq.mm", "unarmoured", "copper", "single core"],
+      "sku_id": "POLY-IND-FLEX-1C-25",
+      "product_series": "Industrial Flexible Cable",
+      "item_description": "25 sq.mm Single Core Unarmoured Multistrand Copper Cable",
+      "technical_specifications": {
+        "conductor_material": "Annealed Bare Copper",
+        "insulation_type": "PVC Type C",
+        "armoring": "Unarmoured",
+        "cross_section": "25 sq.mm",
+        "core_count": "1 Core",
+        "voltage_grade": "1.1 kV",
+        "compliance": "IS 694"
+      }
+    },
+    {
+      "match_tags": ["cable", "50 sq.mm", "armoured", "aluminium", "3.5 core"],
+      "sku_id": "POLY-AYFY-3.5C-50",
+      "product_series": "LT Power Cable (Armoured)",
+      "item_description": "3.5 Core 50 sq.mm Aluminium Armoured Power Cable (AYFY)",
+      "technical_specifications": {
+        "conductor_material": "Stranded Aluminium H2/H4 Grade",
+        "insulation_type": "PVC / XLPE",
+        "armoring": "Galvanized Steel Strip/Wire",
+        "cross_section": "50 sq.mm",
+        "core_count": "3.5 Core",
+        "voltage_grade": "1.1 kV",
+        "compliance": "IS 7098 (Part 1)"
+      }
+    },
+    {
+      "match_tags": ["distribution board", "spn", "double door", "sheet steel"],
+      "sku_id": "GPDSN29W12",
+      "product_series": "Decour Distribution Board",
+      "item_description": "SPN Double Door Distribution Board 6 Way",
+      "technical_specifications": {
+        "type": "SPN (Single Phase Neutral)",
+        "construction": "Sheet Steel (CRCA)",
+        "mounting": "Flush/Surface",
+        "door_type": "Double Door (Metal)",
+        "ways": "6 Way",
+        "protection_class": "IP 43",
+        "color_finish": "RAL 9003 Grey White",
+        "compliance": "IS 13032, IS 8623"
+      }
+    },
+    {
+      "match_tags": ["distribution board", "tpn", "double door", "sheet steel"],
+      "sku_id": "GPDTN29W41",
+      "product_series": "Decour Distribution Board",
+      "item_description": "TPN Double Door Distribution Board 4 Way",
+      "technical_specifications": {
+        "type": "TPN (Three Phase Neutral)",
+        "construction": "Sheet Steel (CRCA)",
+        "mounting": "Flush/Surface",
+        "door_type": "Double Door (Metal)",
+        "ways": "4 Way (Incoming + Outgoing)",
+        "protection_class": "IP 43",
+        "color_finish": "RAL 9003 Grey White",
+        "compliance": "IS 13032, IS 8623"
+      }
+    },
+    {
+      "match_tags": ["mcb", "10ka", "c-curve", "single pole"],
+      "sku_id": "POLY-MCB-10KA-SP",
+      "product_series": "Polycab MCB",
+      "item_description": "Miniature Circuit Breaker Single Pole 10kA C-Curve",
+      "technical_specifications": {
+        "poles": "SP (1P)",
+        "breaking_capacity": "10 kA",
+        "curve_type": "C-Curve",
+        "voltage": "240/415 V",
+        "features": "Positive Contact Indication, Bi-stable DIN clip",
+        "compliance": "IS/IEC 60898-1"
+      }
+    },
+    {
+      "match_tags": ["switch", "modular", "6a"],
+      "sku_id": "LEV-SW-1M-6A",
+      "product_series": "Levana Modular Switches",
+      "item_description": "6A 1 Way Modular Switch",
+      "technical_specifications": {
+        "rating": "6 AX",
+        "module_size": "1 Module",
+        "mechanism": "Soft Click, 5 Part Mechanism",
+        "material": "Polycarbonate (Flame Retardant)",
+        "compliance": "IS 3854"
+      }
+    },
+    {
+      "match_tags": ["socket", "modular", "6a", "3 pin"],
+      "sku_id": "LEV-SOC-2M-6A",
+      "product_series": "Levana Modular Switches",
+      "item_description": "6A 3 Pin Modular Socket with Shutter",
+      "technical_specifications": {
+        "rating": "6 A",
+        "module_size": "2 Module",
+        "shutter": "Safety Shutter",
+        "material": "Polycarbonate",
+        "features": "Phosphor Bronze Contacts"
+      }
+    },
+    {
+      "match_tags": ["socket", "modular", "16a", "6 pin"],
+      "sku_id": "LEV-SOC-2M-16A",
+      "product_series": "Levana Modular Switches",
+      "item_description": "6/16A Combined Modular Socket with Shutter",
+      "technical_specifications": {
+        "rating": "16 A",
+        "module_size": "2 Module",
+        "shutter": "Safety Shutter",
+        "material": "Polycarbonate",
+        "compatibility": "Fits standard modular boxes"
+      }
+    },
+    {
+      "match_tags": ["lighting", "led batten", "20w", "4 feet"],
+      "sku_id": "PC-NEO-SLIM-20W",
+      "product_series": "Neo Slim Batten",
+      "item_description": "20W LED Batten 4 Feet",
+      "technical_specifications": {
+        "power": "20 W",
+        "length": "4 Feet (1200mm)",
+        "lumen_efficacy": "100 lm/W",
+        "cct": "6500K (Cool White)",
+        "surge_protection": "4 kV",
+        "housing": "PC Extrusion"
+      }
+    },
+    {
+      "match_tags": ["lighting", "flood light", "100w", "ip66"],
+      "sku_id": "PCFLSL-100W",
+      "product_series": "Citibeam/Eco Floodlight",
+      "item_description": "100W LED Flood Light IP66",
+      "technical_specifications": {
+        "power": "100 W",
+        "protection_class": "IP 66",
+        "lumen_efficacy": "110-120 lm/W",
+        "housing": "Pressure Die-Cast Aluminium",
+        "surge_protection": "10 kV External / 4 kV Internal",
+        "cover": "Toughened Glass"
+      }
+    },
+    {
+      "match_tags": ["lighting", "street light", "70w", "ip66"],
+      "sku_id": "PCCSSL-70W",
+      "product_series": "Citishine Street Light",
+      "item_description": "70W LED Street Light IP66",
+      "technical_specifications": {
+        "power": "70 W",
+        "protection_class": "IP 66",
+        "lumen_efficacy": "135 lm/W",
+        "housing": "Pressure Die-Cast Aluminium",
+        "surge_protection": "10 kV External",
+        "optics": "Polycarbonate Lens"
+      }
+    },
+    {
+      "match_tags": ["lighting", "ceiling light", "surface", "12w", "round"],
+      "sku_id": "SCINTILLATE-SURF-12W",
+      "product_series": "Scintillate Surface Panel",
+      "item_description": "12W Round Surface Mounted LED Panel",
+      "technical_specifications": {
+        "power": "12 W",
+        "shape": "Round",
+        "mounting": "Surface",
+        "lumen_efficacy": "100 lm/W",
+        "housing": "Polycarbonate/Aluminium",
+        "surge_protection": "2.5 kV"
+      }
+    },
+    {
+      "match_tags": ["fan", "ceiling fan", "high speed", "1200mm"],
+      "sku_id": "POLY-ZOOMER-1200",
+      "product_series": "Zoomer Prime Ceiling Fan",
+      "item_description": "1200mm High Speed Ceiling Fan",
+      "technical_specifications": {
+        "sweep": "1200 mm",
+        "speed": "400 RPM (High Speed)",
+        "air_delivery": "215 CMM",
+        "power_input": "53 W",
+        "winding": "100% Copper",
+        "blades": "Rustproof Aluminium"
+      }
+    },
+    {
+      "match_tags": ["fan", "exhaust fan", "300mm"],
+      "sku_id": "POLY-FRESHNER-300",
+      "product_series": "Freshner Neo Exhaust Fan",
+      "item_description": "300mm Exhaust Fan",
+      "technical_specifications": {
+        "sweep": "300 mm (12 inch)",
+        "speed": "1350 RPM",
+        "guard": "Metal Bird Guard",
+        "body": "Metal/Plastic",
+        "application": "Kitchen/Bathroom"
+      }
+    }
+  ]
+}

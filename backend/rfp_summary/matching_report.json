@@ -1,0 +1,216 @@
+{
+  "metadata": {
+    "rfp_title": "Electrical wiring, illumination, power point, light & fan point works in CV Raman, GSMC Ext, SC Day, Dhanarajgiri, Vishvakarma, S N Bose Hostel, Vishasvaraiya, Aryabhatta-II, GSMC Old IIT Girls, Rajputana, Morvi Hostels, Nevdita Girls and PC Ray, IIT(BHU), Varanasi",
+    "total_rfp_items": 32,
+    "matched_items": 10,
+    "match_percentage": "31.2%"
+  },
+  "matches": [
+    {
+      "rfp_item_name": "Light/Fan/Exhaust Fan/Call Bell Point Wiring Installation (1.5 sq.mm FRLS PVC Copper Single Core)",
+      "rfp_quantity": 70,
+      "rfp_units": "Nos",
+      "matched_sku_id": "POLY-GRN-FRLS-1.5",
+      "matched_product": "1.5 sq.mm FRLS PVC Insulated Copper Single Core Flexible Wire",
+      "confidence_score": 97,
+      "match_reasons": [
+        "Tags: wiring, 1.5 sq.mm, copper, single core, frls",
+        "\u2713 Size: 1.5 sq.mm found in requirements",
+        "\u2713 Cores: 1.0"
+      ],
+      "technical_specs": {
+        "conductor_material": "Electrolytic Grade Copper (99.97%)",
+        "insulation_type": "FRLS (Flame Retardant Low Smoke) PVC",
+        "cross_section": "1.5 sq.mm",
+        "voltage_grade": "1100 V",
+        "compliance": "IS 694, RoHS, REACH, Green Pro",
+        "features": "Anti-Termite, Anti-Rodent, Lead Free"
+      }
+    },
+    {
+      "rfp_item_name": "Circuit/Submain Wiring Installation (FRLS PVC Insulated Copper Single Core Cable with Earth Wire)",
+      "rfp_quantity": "1187",
+      "rfp_units": "Mtrs",
+      "matched_sku_id": "POLY-GRN-FRLS-6.0",
+      "matched_product": "6.0 sq.mm FRLS PVC Insulated Copper Single Core Flexible Wire",
+      "confidence_score": 99,
+      "match_reasons": [
+        "Tags: submain wiring, 6 sq.mm, copper, single core, frls",
+        "\u2713 Size: 6.0 sq.mm found in requirements",
+        "\u2713 Cores: 1.0"
+      ],
+      "technical_specs": {
+        "conductor_material": "Electrolytic Grade Copper",
+        "insulation_type": "FRLS PVC",
+        "cross_section": "6.0 sq.mm",
+        "voltage_grade": "1100 V",
+        "compliance": "IS 694"
+      }
+    },
+    {
+      "rfp_item_name": "SPN MCB Distribution Board (Sheet Steel, Double Door)",
+      "rfp_quantity": 33,
+      "rfp_units": "Nos",
+      "matched_sku_id": "GPDSN29W12",
+      "matched_product": "SPN Double Door Distribution Board 6 Way",
+      "confidence_score": 48,
+      "match_reasons": [
+        "Tags: distribution board, spn, double door, sheet steel"
+      ],
+      "technical_specs": {
+        "type": "SPN (Single Phase Neutral)",
+        "construction": "Sheet Steel (CRCA)",
+        "mounting": "Flush/Surface",
+        "door_type": "Double Door (Metal)",
+        "ways": "6 Way",
+        "protection_class": "IP 43",
+        "color_finish": "RAL 9003 Grey White",
+        "compliance": "IS 13032, IS 8623"
+      }
+    },
+    {
+      "rfp_item_name": "TPN MCB Distribution Board (Sheet Steel, Double Door)",
+      "rfp_quantity": 4,
+      "rfp_units": "Nos",
+      "matched_sku_id": "GPDTN29W41",
+      "matched_product": "TPN Double Door Distribution Board 4 Way",
+      "confidence_score": 48,
+      "match_reasons": [
+        "Tags: distribution board, tpn, double door, sheet steel"
+      ],
+      "technical_specs": {
+        "type": "TPN (Three Phase Neutral)",
+        "construction": "Sheet Steel (CRCA)",
+        "mounting": "Flush/Surface",
+        "door_type": "Double Door (Metal)",
+        "ways": "4 Way (Incoming + Outgoing)",
+        "protection_class": "IP 43",
+        "color_finish": "RAL 9003 Grey White",
+        "compliance": "IS 13032, IS 8623"
+      }
+    },
+    {
+      "rfp_item_name": "LED Batten",
+      "rfp_quantity": 400,
+      "rfp_units": "Nos",
+      "matched_sku_id": "PC-NEO-SLIM-20W",
+      "matched_product": "20W LED Batten 4 Feet",
+      "confidence_score": 79,
+      "match_reasons": [
+        "Tags: lighting, led batten, 20w, 4 feet",
+        "\u2713 Wattage: 20.0W"
+      ],
+      "technical_specs": {
+        "power": "20 W",
+        "length": "4 Feet (1200mm)",
+        "lumen_efficacy": "100 lm/W",
+        "cct": "6500K (Cool White)",
+        "surge_protection": "4 kV",
+        "housing": "PC Extrusion"
+      }
+    },
+    {
+      "rfp_item_name": "LED Flood Light",
+      "rfp_quantity": 20,
+      "rfp_units": "Nos",
+      "matched_sku_id": "PCFLSL-100W",
+      "matched_product": "100W LED Flood Light IP66",
+      "confidence_score": 71,
+      "match_reasons": [
+        "Tags: lighting, flood light",
+        "\u2713 Wattage: 100.0W"
+      ],
+      "technical_specs": {
+        "power": "100 W",
+        "protection_class": "IP 66",
+        "lumen_efficacy": "110-120 lm/W",
+        "housing": "Pressure Die-Cast Aluminium",
+        "surge_protection": "10 kV External / 4 kV Internal",
+        "cover": "Toughened Glass"
+      }
+    },
+    {
+      "rfp_item_name": "LED Street Light",
+      "rfp_quantity": 10,
+      "rfp_units": "Nos",
+      "matched_sku_id": "PCCSSL-70W",
+      "matched_product": "70W LED Street Light IP66",
+      "confidence_score": 71,
+      "match_reasons": [
+        "Tags: lighting, street light",
+        "\u2713 Wattage: 70.0W"
+      ],
+      "technical_specs": {
+        "power": "70 W",
+        "protection_class": "IP 66",
+        "lumen_efficacy": "135 lm/W",
+        "housing": "Pressure Die-Cast Aluminium",
+        "surge_protection": "10 kV External",
+        "optics": "Polycarbonate Lens"
+      }
+    },
+    {
+      "rfp_item_name": "Energy Meter (Single Phase, 3 Wire LCD Type)",
+      "rfp_quantity": 50,
+      "rfp_units": "Nos",
+      "matched_sku_id": "POLY-GRN-FRLS-2.5",
+      "matched_product": "2.5 sq.mm FRLS PVC Insulated Copper Single Core Flexible Wire",
+      "confidence_score": 90,
+      "match_reasons": [
+        "Tags: copper, single core, frls",
+        "\u2713 Size: 2.5 sq.mm found in requirements",
+        "\u2713 Cores: 1.0"
+      ],
+      "technical_specs": {
+        "conductor_material": "Electrolytic Grade Copper",
+        "insulation_type": "FRLS PVC",
+        "cross_section": "2.5 sq.mm",
+        "voltage_grade": "1100 V",
+        "compliance": "IS 694"
+      }
+    },
+    {
+      "rfp_item_name": "Multi-strand Single Core Unarmoured Copper Cable",
+      "rfp_quantity": 125,
+      "rfp_units": "Meter",
+      "matched_sku_id": "POLY-IND-FLEX-1C-25",
+      "matched_product": "25 sq.mm Single Core Unarmoured Multistrand Copper Cable",
+      "confidence_score": 100,
+      "match_reasons": [
+        "Tags: cable, 25 sq.mm, unarmoured, copper, single core",
+        "\u2713 Size: 25.0 sq.mm found in requirements",
+        "\u2713 Cores: 1.0"
+      ],
+      "technical_specs": {
+        "conductor_material": "Annealed Bare Copper",
+        "insulation_type": "PVC Type C",
+        "armoring": "Unarmoured",
+        "cross_section": "25 sq.mm",
+        "core_count": "1 Core",
+        "voltage_grade": "1.1 kV",
+        "compliance": "IS 694"
+      }
+    },
+    {
+      "rfp_item_name": "Armoured Aluminium Power Cable",
+      "rfp_quantity": 50,
+      "rfp_units": "Mtr",
+      "matched_sku_id": "POLY-AYFY-3.5C-50",
+      "matched_product": "3.5 Core 50 sq.mm Aluminium Armoured Power Cable (AYFY)",
+      "confidence_score": 78,
+      "match_reasons": [
+        "Tags: cable, 50 sq.mm, armoured, aluminium",
+        "\u2713 Size: 50.0 sq.mm found in requirements"
+      ],
+      "technical_specs": {
+        "conductor_material": "Stranded Aluminium H2/H4 Grade",
+        "insulation_type": "PVC / XLPE",
+        "armoring": "Galvanized Steel Strip/Wire",
+        "cross_section": "50 sq.mm",
+        "core_count": "3.5 Core",
+        "voltage_grade": "1.1 kV",
+        "compliance": "IS 7098 (Part 1)"
+      }
+    }
+  ]
+}

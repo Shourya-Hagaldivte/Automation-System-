@@ -1,0 +1,168 @@
+.pricing-agent {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.pricing-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-section h3 {
+  margin: 0 0 1.5rem 0;
+  color: #2d3748;
+  font-size: 1.6rem;
+}
+
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f8fafc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.pricing-table th,
+.pricing-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.pricing-table th {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.pricing-table td {
+  color: #2d3748;
+}
+
+.pricing-table code {
+  background: #e0e7ff;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  color: #4c51bf;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.pricing-table .amount {
+  font-weight: 700;
+  color: #667eea;
+  text-align: right;
+}
+
+.subtotal-row {
+  background: #eef5ff !important;
+  border-top: 2px solid #667eea;
+}
+
+.subtotal-row td {
+  font-weight: 700;
+  color: #2d3748;
+  padding: 1.25rem 1rem;
+}
+
+.final-summary {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  border: 2px solid #667eea;
+}
+
+.final-summary h3 {
+  margin: 0 0 1.5rem 0;
+  color: #2d3748;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.summary-card {
+  background: linear-gradient(135deg, #f6f8fb 0%, #eef2f7 100%);
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.summary-row:last-child {
+  border-bottom: none;
+}
+
+.summary-row .label {
+  color: #64748b;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.summary-row .value {
+  color: #2d3748;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.summary-row.subtotal {
+  border-top: 2px solid #cbd5e0;
+  margin-top: 0.5rem;
+  padding-top: 1rem;
+}
+
+.summary-row.subtotal .label,
+.summary-row.subtotal .value {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.summary-row.grand-total {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1.25rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  border: none;
+}
+
+.summary-row.grand-total .label,
+.summary-row.grand-total .value {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+@media (max-width: 768px) {
+  .pricing-table {
+    font-size: 0.85rem;
+  }
+
+  .pricing-table th,
+  .pricing-table td {
+    padding: 0.75rem 0.5rem;
+  }
+
+  .summary-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
+
+.price-source {
+  display: block;
+  margin-top: 0.25rem;
+  color: #64748b;
+  font-size: 0.78rem;
+}

@@ -1,0 +1,19 @@
+sku_id,product_name,category,unit_price,currency
+POLY-GRN-FRLS-1.5,1.5 sq.mm FRLS PVC Copper Wire,Wiring,28.00,INR
+POLY-GRN-FRLS-2.5,2.5 sq.mm FRLS PVC Copper Wire,Wiring,42.00,INR
+POLY-GRN-FRLS-4.0,4.0 sq.mm FRLS PVC Copper Wire,Wiring,68.00,INR
+POLY-GRN-FRLS-6.0,6.0 sq.mm FRLS PVC Copper Wire,Wiring,98.00,INR
+POLY-IND-FLEX-1C-25,25 sq.mm Single Core Copper Cable,Cable,380.00,INR
+POLY-AYFY-3.5C-50,50 sq.mm 3.5 Core Aluminium Armoured Cable,Cable,450.00,INR
+GPDSN29W12,SPN Double Door DB 6 Way,Distribution Board,2450.00,INR
+GPDTN29W41,TPN Double Door DB 4 Way,Distribution Board,4800.00,INR
+POLY-MCB-10KA-SP,MCB Single Pole 10kA C-Curve,Circuit Breaker,210.00,INR
+LEV-SW-1M-6A,6A 1 Way Modular Switch,Switch,55.00,INR
+LEV-SOC-2M-6A,6A 3 Pin Modular Socket,Socket,95.00,INR
+LEV-SOC-2M-16A,6/16A Combined Modular Socket,Socket,145.00,INR
+PC-NEO-SLIM-20W,20W LED Batten 4 Feet,Lighting,450.00,INR
+PCFLSL-100W,100W LED Flood Light IP66,Lighting,4200.00,INR
+PCCSSL-70W,70W LED Street Light IP66,Lighting,3100.00,INR
+SCINTILLATE-SURF-12W,12W Round Surface LED Panel,Lighting,650.00,INR
+POLY-ZOOMER-1200,1200mm High Speed Ceiling Fan,Fan,2850.00,INR
+POLY-FRESHNER-300,300mm Exhaust Fan,Fan,1350.00,INR

@@ -1,0 +1,423 @@
+{
+  "metadata": {
+    "rfp_title": "Electrical wiring, illumination, power point, light & fan point works in CV Raman, GSMC Ext, SC Day, Dhanarajgiri, Vishvakarma, S N Bose Hostel, Vishasvaraiya, Aryabhatta-II, GSMC Old IIT Girls, Rajputana, Morvi Hostels, Nevdita Girls and PC Ray, IIT(BHU), Varanasi",
+    "rfp_reference_number": "IIT(BHU)/IWD/ET-07/2025-26/405",
+    "issuing_authority": "Indian Institute of Technology (BHU), Varanasi",
+    "submission_due_date": "2025-07-16",
+    "is_due_within_3_months": true
+  },
+  "scope_of_supply": [
+    {
+      "product_category": "Wiring Installation",
+      "item_name": "Light/Fan/Exhaust Fan/Call Bell Point Wiring Installation (1.5 sq.mm FRLS PVC Copper Single Core)",
+      "quantity": 70,
+      "units": "Nos",
+      "technical_parameters": {
+        "cable_type": "1.5 sq.mm FRLS PVC insulated copper conductor single core cable",
+        "installation_type": "surface / recessed medium class PVC conduit",
+        "accessories": "modular switch, modular plate, suitable Gl box, earthing with 1.5 sq.mm FRLS PVC copper conductor",
+        "voltage": "240V",
+        "make": "Polycab/Finolex/L&T"
+      }
+    },
+    {
+      "product_category": "Cable Installation",
+      "item_name": "Circuit/Submain Wiring Installation (FRLS PVC Insulated Copper Single Core Cable with Earth Wire)",
+      "quantity": "1187",
+      "units": "Mtrs",
+      "technical_parameters": {
+        "cable_type_details": "2X2.5+1X2.5, 2X4+1X4, 2X6+1X6, 2X10+1X6, 4X6+2X6, 4X10+2X6 sq.mm FRLS PVC insulated copper conductor single core cable with earth wire",
+        "installation_type": "surface/recessed medium class PVC conduit",
+        "voltage_grade": "650V",
+        "make": "Polycab/Finolex/L&T"
+      }
+    },
+    {
+      "product_category": "Wiring Accessories",
+      "item_name": "GI/PVC Box with Modular Socket Outlet and Switch",
+      "quantity": 220,
+      "units": "Nos",
+      "technical_parameters": {
+        "box_type": "GI/PVC box, modular plate and cover (surface/recessed)",
+        "socket_switch_types": "3 pin 5/6 A socket, 5/6 A switch, 2 nos 3 pin 5/6 A socket, 2 nos 5/6 A switch, 6 pin 5/6 A socket, 15/16 A modular switch, 25 A modular socket outlet, 25 A modular SP MCB",
+        "make": "L&T/ABB/LEGRAND/INDOASEAN"
+      }
+    },
+    {
+      "product_category": "Distribution Board",
+      "item_name": "SPN MCB Distribution Board (Sheet Steel, Double Door)",
+      "quantity": 33,
+      "units": "Nos",
+      "technical_parameters": {
+        "type": "single pole and neutral",
+        "construction": "sheet steel, double door",
+        "mounting": "surface/recess",
+        "bus_bars": "tinned copper bus bar, neutral bus bar, earth bar, din bar",
+        "finish": "powder painted",
+        "voltage": "240 V",
+        "exclusion": "without MCB/RCCB/Isolator",
+        "make": "L&T/ABB/LEGRAND/INDOASEAN"
+      }
+    },
+    {
+      "product_category": "Distribution Board",
+      "item_name": "TPN MCB Distribution Board (Sheet Steel, Double Door)",
+      "quantity": 4,
+      "units": "Nos",
+      "technical_parameters": {
+        "type": "three pole and neutral",
+        "construction": "sheet steel, double door",
+        "mounting": "surface/recess",
+        "bus_bars": "tinned copper bus bar, neutral bus bar, earth bar, din bar",
+        "finish": "powder painted",
+        "voltage": "415 V",
+        "exclusion": "without MCB/RCCB/Isolator",
+        "make": "L&T/ABB/LEGRAND/INDOASEAN"
+      }
+    },
+    {
+      "product_category": "Circuit Breaker",
+      "item_name": "MCCB (Moulded Case Circuit Breaker)",
+      "quantity": 1,
+      "units": "Nos",
+      "technical_parameters": {
+        "rating": "125 A",
+        "breaking_capacity": "36KA",
+        "poles": "FPMCCB",
+        "release_type": "thermomagnetic/microprocessor",
+        "applicable_standards": "IS 13947:1993",
+        "voltage": "240/415 Volts AC 50 HZ",
+        "make": "L&T/ABB/C&S/Legrand/Hagger/Schneider"
+      }
+    },
+    {
+      "product_category": "Circuit Breaker",
+      "item_name": "Miniature Circuit Breaker (MCB)",
+      "quantity": 175,
+      "units": "Nos",
+      "technical_parameters": {
+        "rating_details": "Single Pole, Double Pole, Triple Pole, 40/63 A FP",
+        "voltage": "240/415 V",
+        "breaking_capacity": "10 kA",
+        "curve_type": "C-curve (inductive load)",
+        "make": "L&T/ABB/C&S/Legrand/Hagger/Schneider"
+      }
+    },
+    {
+      "product_category": "Enclosure",
+      "item_name": "Metal Enclosure Box",
+      "quantity": 55,
+      "units": "Nos",
+      "technical_parameters": {
+        "type_details": "4 Way, 2 Way",
+        "make": null
+      }
+    },
+    {
+      "product_category": "Wiring Accessory",
+      "item_name": "Electronic Fan Regulator (2 Module Stepped Type)",
+      "quantity": 89,
+      "units": "Nos",
+      "technical_parameters": {
+        "modules": "two module",
+        "type": "stepped electronic",
+        "voltage": "230VAC 1Ph",
+        "make": "ABB/LEGRAND/INDOASEAN"
+      }
+    },
+    {
+      "product_category": "Wiring Accessory",
+      "item_name": "Modular Blanking Plate",
+      "quantity": 10,
+      "units": "Nos",
+      "technical_parameters": {
+        "application": "for existing modular plate & switch box",
+        "make": "ABB/LEGRAND/INDOASEAN"
+      }
+    },
+    {
+      "product_category": "Wiring Accessory",
+      "item_name": "Modular Switches and Socket Outlets (Individual)",
+      "quantity": 150,
+      "units": "Nos",
+      "technical_parameters": {
+        "types": "5/6 A switch, 3 pin 5/6 A socket outlet, 6 pin 15/16 A socket outlet",
+        "application": "for existing modular plate & switch box",
+        "make": "L&T/ABB/LEGRAND/INDOASEAN"
+      }
+    },
+    {
+      "product_category": "Wiring Accessory Enclosure",
+      "item_name": "GI/PVC Box with Modular Plate for Switches",
+      "quantity": 215,
+      "units": "Nos",
+      "technical_parameters": {
+        "box_type": "GI/PVC box",
+        "modules_sizes": "1 or 2 (75x75mm), 3 (100x75mm), 4 (125x75mm), 6 (200x75mm), 8 (125x125mm), 12 (200x150mm)",
+        "make": "ABB/LEGRAND/INDOASEAN"
+      }
+    },
+    {
+      "product_category": "Lighting",
+      "item_name": "LED Batten",
+      "quantity": 400,
+      "units": "Nos",
+      "technical_parameters": {
+        "power": "20W",
+        "length": "4 Feet",
+        "efficacy": ">110/120 LPW",
+        "make": "Wipro/Philpse/CG/Polycab"
+      }
+    },
+    {
+      "product_category": "Lighting",
+      "item_name": "LED Flood Light",
+      "quantity": 20,
+      "units": "Nos",
+      "technical_parameters": {
+        "power": "100 W",
+        "IP_rating": "IP 66",
+        "efficacy": ">110/120 LPW",
+        "make": "Philipse/Wipro/Crompton/Polycab"
+      }
+    },
+    {
+      "product_category": "Street Lighting",
+      "item_name": "LED Street Light",
+      "quantity": 10,
+      "units": "Nos",
+      "technical_parameters": {
+        "power": "70 W",
+        "IP_rating": "IP 66",
+        "efficacy": ">110/120 LPW",
+        "make": "Philipse/Wipro/Crompton/Polycab"
+      }
+    },
+    {
+      "product_category": "Lighting",
+      "item_name": "LED Panel Ceiling Surface Light (Round)",
+      "quantity": 200,
+      "units": "Nos",
+      "technical_parameters": {
+        "power": "12Watt",
+        "efficacy": ">110/120 LPW",
+        "mounting": "surface mounted",
+        "shape": "round",
+        "make": "Phillipse/Wipro/CG/Polycab"
+      }
+    },
+    {
+      "product_category": "Lighting",
+      "item_name": "Recess Mounted LED Luminaries (Grid Ceiling)",
+      "quantity": 20,
+      "units": "Nos",
+      "technical_parameters": {
+        "power": "36w",
+        "type": "2X2 Grid Ceiling",
+        "diffuser": "flat",
+        "driver": "constant current electronic",
+        "accessories": "all accessories & lamps, hanging arrangement (chain etc.)",
+        "cable_spec": "1.5 sq. mm FRLS PVC insulated copper conductor single core cable",
+        "earthing": "required",
+        "make": "Phillipse/Wipro/CG/Polycab"
+      }
+    },
+    {
+      "product_category": "Metering Device",
+      "item_name": "Energy Meter (Single Phase, 3 Wire LCD Type)",
+      "quantity": 50,
+      "units": "Nos",
+      "technical_parameters": {
+        "phase": "1 Ph",
+        "wires": "3 Wire",
+        "type": "LCD",
+        "measurements": "KWH, KVA, KVARH",
+        "integration_type": "integrating",
+        "applicable_standards": "IEC 170",
+        "wiring_spec": "Minimum 2.5sqmm FRLS PVC insulated Copper conductor single core cable and earthing",
+        "make": "L&T/Havells/Schneider/HPL"
+      }
+    },
+    {
+      "product_category": "Lighting",
+      "item_name": "LED Bulb",
+      "quantity": 10,
+      "units": "Nos",
+      "technical_parameters": {
+        "power": "15 W",
+        "make": "Philpse/Wipro/Syska"
+      }
+    },
+    {
+      "product_category": "Fan",
+      "item_name": "Ceiling Fan (High Speed)",
+      "quantity": 30,
+      "units": "Nos",
+      "technical_parameters": {
+        "voltage": "230VAC 1Ph.",
+        "diameter": "1400mm",
+        "speed_type": "High Speed",
+        "make": "Usha/Crompton/Orient"
+      }
+    },
+    {
+      "product_category": "Installation Service",
+      "item_name": "Ceiling Fan Installation, Testing and Commissioning",
+      "quantity": 100,
+      "units": "Nos",
+      "technical_parameters": {
+        "scope": "wiring (1.5 sq. mm FRLS PVC insulated copper conductor single core cable), down rods (standard length upto 30 cm), phenolic laminated sheet cover"
+      }
+    },
+    {
+      "product_category": "Fan",
+      "item_name": "Exhaust Fan",
+      "quantity": 31,
+      "units": "Nos",
+      "technical_parameters": {
+        "voltage": "230VAC 1Ph.",
+        "sweep_details": "450 mm, 300 mm",
+        "make": "Usha/Crompton/Orient"
+      }
+    },
+    {
+      "product_category": "Fan",
+      "item_name": "Wall Fan",
+      "quantity": 10,
+      "units": "Nos",
+      "technical_parameters": {
+        "voltage": "230VAC 1Ph.",
+        "size": "400 mm",
+        "rpm": "900",
+        "make": "Usha/Crompton/Orient"
+      }
+    },
+    {
+      "product_category": "Mounting Hardware",
+      "item_name": "MS Down Rod Conduit Pipe for Ceiling Fan",
+      "quantity": 100,
+      "units": "Nos",
+      "technical_parameters": {
+        "application": "for ceiling fan installation upto 5 to 8 feet",
+        "work_scope": "Supplying, Cutting of huck, painting and fixing",
+        "make": null
+      }
+    },
+    {
+      "product_category": "Electrical Appliance",
+      "item_name": "Insect Killer",
+      "quantity": 10,
+      "units": "Nos",
+      "technical_parameters": {
+        "make": "Fonda/Trinity/Vgaurd or equivalent"
+      }
+    },
+    {
+      "product_category": "Service",
+      "item_name": "Electrical System Repair and Dismantling",
+      "quantity": 1,
+      "units": "Job",
+      "technical_parameters": {
+        "scope": "Repairing existing old wiring/board/main switch, loose electrical system, shadeling of cable, dismantling old unused electrical installation as per site requirement and engineer incharge instructions"
+      }
+    },
+    {
+      "product_category": "Mounting Hardware",
+      "item_name": "Round MS Bracket for Flood Light",
+      "quantity": 2,
+      "units": "Nos",
+      "technical_parameters": {
+        "material": "MS",
+        "application": "mounting of flood light in existing pole at the courtyard"
+      }
+    },
+    {
+      "product_category": "Fuse",
+      "item_name": "HRC Fuse",
+      "quantity": 10,
+      "units": "Nos",
+      "technical_parameters": {
+        "rating": "63-125 A",
+        "application": "in the existing main switch /feeder pillar",
+        "type": "link type (preferably)",
+        "interrupting_capacity": "minimum equal to short circuit current",
+        "make": null
+      }
+    },
+    {
+      "product_category": "Installation Service",
+      "item_name": "Fixing of Exhaust Fan",
+      "quantity": 10,
+      "units": "Nos",
+      "technical_parameters": {
+        "size_details": "300/450 mm Sweep"
+      }
+    },
+    {
+      "product_category": "Cable",
+      "item_name": "Multi-strand Single Core Unarmoured Copper Cable",
+      "quantity": 125,
+      "units": "Meter",
+      "technical_parameters": {
+        "voltage_grade": "1.1 kV",
+        "core_count": "single",
+        "conductor_material": "multi strand copper",
+        "insulation_type": "PVC insulated",
+        "armoring": "unarmoured",
+        "size": "25 sq.mm",
+        "termination": "brass compression gland, copper lugs, 125 Amp insulator base",
+        "make": "KEI/Gloster/Universal./Polycab"
+      }
+    },
+    {
+      "product_category": "Cable",
+      "item_name": "AYFY Aluminium Power Cable",
+      "quantity": 80,
+      "units": "Mtr",
+      "technical_parameters": {
+        "voltage_grade": "1.1KV",
+        "core_count": "4",
+        "conductor_material": "aluminium",
+        "insulation_type": "PVC insulated and PVC sheathed / XLPE",
+        "size": "10sqmm",
+        "installation": "in pvc pipe in surface (including excavation and refilling trench)",
+        "make": "KEI/Gloster/Universal./Polycab"
+      }
+    },
+    {
+      "product_category": "Cable",
+      "item_name": "Armoured Aluminium Power Cable",
+      "quantity": 50,
+      "units": "Mtr",
+      "technical_parameters": {
+        "voltage_grade": "1.1KV",
+        "core_count": "3.5",
+        "conductor_material": "stranded aluminium",
+        "insulation_type": "XLPE insulated, PVC outer sheathed",
+        "armoring": "galvanized round steel wire or steel strip",
+        "size": "50 sq.mm",
+        "applicable_standards": "IS:7098 / (Pt.I) /1988 (ISI marked)",
+        "make": "KEI/Gloster/Universal./Polycab"
+      }
+    }
+  ],
+  "testing_requirements": {
+    "type_tests_required": [
+      "As per IS 13947:1993 (for Switch Fuse Units and relevant equipment)",
+      "Manufacturer's recommended tests"
+    ],
+    "acceptance_tests_required": [
+      "As per approved MQP (Manufacturing Quality Plan)",
+      "Field testing for proper installation, setting, connection, as per plans, specifications, and manufacturer's recommendations",
+      "Testing as per relevant standards (latest edition)",
+      "Owner's suggested additional tests",
+      "Performance tests initially at no load condition and with different loading conditions",
+      "Complete testing to satisfaction of engineer-in-charge"
+    ],
+    "routine_tests_required": [
+      "As per IS 13947:1993 (for Switch Fuse Units and relevant equipment)",
+      "As per approved MQP",
+      "Manufacturer's recommended tests"
+    ]
+  }
+}
